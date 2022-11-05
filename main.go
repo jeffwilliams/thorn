@@ -22,6 +22,7 @@ func main() {
 	s = strings.ReplaceAll(s, "and", "⁊")
 	s = strings.ReplaceAll(s, "And", "⁊")
 	s = strings.ReplaceAll(s, "ss", "ß")
+	s = strings.ReplaceAll(s, "s", "ſ")
 
 	fmt.Printf(s)
 }
