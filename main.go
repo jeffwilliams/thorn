@@ -18,6 +18,7 @@ func main() {
 
 	s = strings.ReplaceAll(s, "th", "þ")
 	s = strings.ReplaceAll(s, "Th", "Þ")
+	s = strings.ReplaceAll(s, "ond", "⁊")
 	s = strings.ReplaceAll(s, "and", "⁊")
 	s = strings.ReplaceAll(s, "And", "⁊")
 	s = strings.ReplaceAll(s, "ss", "ß")
